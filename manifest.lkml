@@ -1,4 +1,4 @@
-application: explore_assistant_llm  {
+application: explore_assistant  {
   label: "Explore Assistant"
   #url: "https://localhost:8080/bundle.js"
   file: "/bundle.js"
