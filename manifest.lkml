@@ -1,5 +1,5 @@
-application: explore_assistant {
-  label: "Explore Assistant test"
+application: explore_assistant_llm  {
+  label: "Explore Assistant"
   #url: "https://localhost:8080/bundle.js"
   file: "/bundle.js"
   entitlements: {
