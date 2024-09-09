@@ -1,9 +1,7 @@
-project_name: "explore_assistant"
-
 application: explore_assistant {
   label: "Explore Assistant"
-  #url: "https://localhost:8080/bundle.js"
-  file: "/bundle.js"
+  url: "https://localhost:8080/bundle.js"
+  # file: "bundle.js"
   entitlements: {
     core_api_methods: [
       "lookml_model_explore",
