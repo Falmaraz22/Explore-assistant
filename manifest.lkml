@@ -21,7 +21,7 @@ application: explore_assistant {
     ]
     local_storage: yes
     external_api_urls: [
-      "https://us-central1-proyecto-don-cerdo-d4g.cloudfunctions.net"
+      "https://us-central1-proyecto-don-cerdo-d4g.cloudfunctions.net/explore-assistant-api"
     ]
   }
 }
