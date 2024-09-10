@@ -1,7 +1,7 @@
 application: explore_assistant  {
   label: "Explore Assistant"
-  #url: "https://localhost:8080/bundle.js"
-  file: "/bundle.js"
+  url: "https://localhost:8080/bundle.js"
+  #file: "/bundle.js"
   entitlements: {
     core_api_methods: [
       "lookml_model_explore",
@@ -19,7 +19,8 @@ application: explore_assistant  {
     ]
     local_storage: yes
     external_api_urls: [
-      "https://us-central1-proyecto-don-cerdo-d4g.cloudfunctions.net/explore-assistant-api"
+      "https://us-central1-proyecto-don-cerdo-d4g.cloudfunctions.net/explore-assistant-api",
+      "https://localhost:8080/bundle.js"
     ]
   }
 }
